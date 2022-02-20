@@ -24,10 +24,10 @@
         font-size: 46px;
     }
     .about_me p {
-        font-size: 24px;
+        font-size: 20px;
     }
     .profile-image img {
-        width: 55vw;
+        width: 50vw;
     }
     footer {
         display: flex;

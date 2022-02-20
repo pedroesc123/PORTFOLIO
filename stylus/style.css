@@ -72,7 +72,7 @@ main {
     margin: 0px 16px;
 }
 .about_me p {
-    font-size: 20px;
+    font-size: 18px;
 }
 .profile-image {
     object-fit: contain;
@@ -80,7 +80,7 @@ main {
     justify-content: center;
 }
 .profile-image img {
-    width: 80vw;
+    width: 70vw;
     margin: 20px 0px;
 }
 footer {
