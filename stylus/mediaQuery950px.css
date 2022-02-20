@@ -1,4 +1,7 @@
 @media (min-width: 950px) {
+    body {
+        overflow-x: hidden;
+    }
     header {
         width: 100vw;
         height: 10vh;
