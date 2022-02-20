@@ -3,6 +3,9 @@
         display: flex;
         flex-direction: column;
     }
+    .navigation-bar__menu {
+        padding: 10px 0px;
+    }
     .navigation-bar__menu ul {
         display: flex;
         flex-direction: row;
@@ -13,23 +16,24 @@
         list-style: none;
     }
     .navigation-bar__menu ul li {
-        font-size: 20px;
+        font-size: 28px;
     }
     .contact {
-        width: 125px;
-        height: 30px;
-        font-size: 20px;
+        width: 146px;
+        height: 40px;
+        font-size: 28px;
     }
     main .title h1 {
-        font-size: 46px;
+        font-size: 56px;
     }
     .about_me p {
-        font-size: 20px;
+        font-size: 28px;
     }
     .profile-image img {
         width: 50vw;
     }
     footer {
+        height: 100px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -38,7 +42,7 @@
         margin: 0px 30px;
     }
     footer a p {
-        font-size: 36px;
+        font-size: 38px;
         margin-bottom: 10px;
     }
     footer a img {

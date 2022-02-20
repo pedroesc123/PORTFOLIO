@@ -1,4 +1,7 @@
 @media (min-width: 950px) {
+    header {
+        height: 10vh;
+    }
     .navigation-bar__menu {
         width: 60vw;
     }
@@ -20,6 +23,17 @@
         position: absolute;
         right: 80px;
     }
+    body main {
+        height: 75vh;
+    }
+    body main .title h1{
+        height: 20vh;
+        display: flex;
+        align-items: center;
+    }
+    body main .description {
+        height: 55vh;
+    }
     .description .about_me p {
         font-size: 30px;
     }
@@ -29,5 +43,8 @@
     .profile-image img {
         margin-left: 50px;
         width: 350px;
+    }
+    footer {
+        height: 15vh;
     }
 }

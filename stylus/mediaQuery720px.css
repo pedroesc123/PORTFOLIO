@@ -1,4 +1,8 @@
 @media (min-width: 720px) {
+    body {
+        height: auto;
+        overflow: scroll;
+    }
     .navigation-bar {
         display: flex;
         flex-direction: row;
@@ -9,36 +13,37 @@
         justify-content: space-evenly;
     }
     .navigation-bar__menu ul li{
-        font-size: 24px;
+        font-size: 30px;
     }
     .contact {
-        width: 150px;
-        height: 40px;
-        font-size: 24px;
+        width: 180px;
+        height: 46px;
+        font-size: 30px;
+    }
+    body main {
+        height: auto;
+        padding-bottom: 20px;
     }
     main .title {
-        height: 15vh;
         display: flex;
         justify-content: center;
         align-items: flex-end;
     }
     main .title h1 {
-        font-size: 60px;
-    }
-    main .description {
-        height: 53vh;
+        font-size: 80px;
     }
     .description {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        padding-bottom: 40px;
     }
     .description .about_me {
         width: 50vw;
     }
     .description .about_me p {
-        font-size: 24px;
+        font-size: 30px;
     }
     .description .profile-image {
         width: 250px;
