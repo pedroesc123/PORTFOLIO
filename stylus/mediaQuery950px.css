@@ -25,6 +25,7 @@
         right: 80px;
     }
     body main {
+        width: 100vw;
         height: 75vh;
     }
     body main .title h1{
@@ -46,6 +47,7 @@
         width: 350px;
     }
     footer {
+        width: 100vw;
         height: 15vh;
     }
 }
