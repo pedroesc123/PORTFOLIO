@@ -1,6 +1,6 @@
 @media (min-width: 950px) {
     body {
-        overflow-x: hidden;
+        overflow: hidden;
     }
     header {
         width: 100vw;
