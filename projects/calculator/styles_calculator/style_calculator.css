@@ -1,0 +1,123 @@
+:root {
+    --calculator-color: #abc8c7;
+    --special-buttons-color: #a5b5bf;
+    --background-color: #b0a1ba;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 80px);
+    grid-template-areas: "screen screen screen screen"
+                         "refresh div mult rest"
+                         "seven eight nine sum"
+                         "four five six sum"
+                         "one two three equal"
+                         "zero zero point equal";
+
+    width: 100%;
+    height: auto;
+    background-color: var(--calculator-color);
+}
+
+.container p {
+    background-color: var(--special-buttons-color);
+    margin: 5px;
+    border: 1.5px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 36px;
+    grid-area: screen;
+}
+
+.container #refresh {
+    grid-area: refresh;
+}
+
+.container #mult {
+    grid-area: mult;
+}
+
+.container #rest {
+    grid-area: rest;
+}
+
+.container #value_7 {
+    grid-area: seven;
+}
+
+.container #value_8 {
+    grid-area: eight;
+}
+
+.container #value_9 {
+    grid-area: nine;
+}
+
+.container #sum {
+    grid-area: sum;
+}
+
+.container #value_4 {
+    grid-area: four;
+}
+
+.container #value_5 {
+    grid-area: five;
+}
+
+.container #value_6 {
+    grid-area: six;
+}
+
+.container #value_1 {
+    grid-area: one;
+}
+
+.container #value_2 {
+    grid-area: two;
+}
+
+.container #value_3 {
+    grid-area: three;
+}
+
+.container #value_0 {
+    grid-area: zero;
+}
+
+.container #point {
+    grid-area: point;
+}
+
+.container #equal {
+    grid-area: equal;
+}
+
+.container button {
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    background-color: var(--special-buttons-color);
+}
+
+.container button:hover {
+    background-color: rebeccapurple;
+}

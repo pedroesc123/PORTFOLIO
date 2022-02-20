@@ -1,0 +1,49 @@
+@media (min-width: 720px) {
+    .navigation-bar {
+        display: flex;
+        flex-direction: row;
+    }
+    .navigation-bar__menu {
+        width: 70vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .navigation-bar__menu ul li{
+        font-size: 24px;
+    }
+    .contact {
+        width: 150px;
+        height: 40px;
+        font-size: 24px;
+    }
+    main .title {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    main .title h1 {
+        font-size: 60px;
+    }
+    main .description {
+        height: 53vh;
+    }
+    .description {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .description .about_me {
+        width: 50vw;
+    }
+    .description .about_me p {
+        font-size: 26px;
+    }
+    .description .profile-image {
+        width: 250px;
+    }
+    .profile-image img {
+        width: 240px;
+    }
+}

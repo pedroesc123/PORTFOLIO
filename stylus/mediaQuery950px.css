@@ -1,0 +1,33 @@
+@media (min-width: 950px) {
+    .navigation-bar__menu {
+        width: 60vw;
+    }
+    .contact {
+        width: 40vw;
+        border: none;
+        position: relative;
+    }
+    .contact:hover {
+        border: none;
+    }
+    .contact p:hover {
+        border: 2px solid red;
+    }
+    .contact p {
+        border: 2px solid black;
+        border-radius: 50px;
+        padding: 10px;
+        position: absolute;
+        right: 80px;
+    }
+    .description .about_me p {
+        font-size: 30px;
+    }
+    .description .profile-image {
+        width: 400px;
+    }
+    .profile-image img {
+        margin-left: 50px;
+        width: 350px;
+    }
+}

@@ -1,0 +1,70 @@
+:root {
+    --background-color: #9bc4bc;
+    --input-color: #d3ffe9;
+    --button-color: #8ddbe0;
+    --work-color: #4b5043;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.container h1 {
+    margin: 10px 0px;
+}
+
+.add-works {
+    text-align: center;
+}
+
+.add-works input {
+    background-color: var(--input-color);
+    height: 30px;
+    width: 60vw;
+}
+
+.add-works button {
+    background-color: var(--button-color);
+    height: 30px;
+    width: 35vw;
+}
+
+.add-works button:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.add-works div {
+    background-color: var(--work-color);
+    color: white;
+    display: inline-block;
+    min-height: 20px;
+    min-width: 95vw;
+    max-width: 95vw;
+    padding: 5px;
+    margin: 10px 0px;
+    border: 1px solid black;
+    text-align: justify;
+}
+
+.add-works div p {
+    text-align: center;
+}
+
+.add-works div p:hover {
+    cursor: pointer;
+    color: red;
+}

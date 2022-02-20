@@ -1,0 +1,12 @@
+@media (min-width: 500px) {
+    .add-works input {
+        width: 300px;
+    }
+    .add-works button {
+        width: 140px;
+    }
+    .add-works div {
+        min-width: 450px;
+        max-width: 450px;
+    }
+}
